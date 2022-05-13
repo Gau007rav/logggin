@@ -13,6 +13,7 @@ export default function Home() {
     }
     return (
         <>
+        <h2 className='head'>Login Here</h2>
             <diV Id="outer">
                 <form action='' >
                     <div id='inner'>
@@ -26,7 +27,7 @@ export default function Home() {
                     </div>
                 </form>
             </diV>
-            <button type="submit" onClick={submission}>submit</button>
+            <button type="submit" onClick={submission} className="btn">submit</button>
             <div>
                 {allEntry.map((item) => {
                     return (<div>
