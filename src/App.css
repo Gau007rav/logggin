@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+#outer{
+  height: 180px;
+  width: 244px;
+  border: 2px solid red;
+}
+#inner{
+  padding: 15px;
+    border: 2px solid black;
+    background-color: aqua;
+    margin: 14px;
+}
